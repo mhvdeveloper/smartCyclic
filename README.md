@@ -48,5 +48,10 @@ $(".anyone").smartCycle({
     union:'false'//circle union, true or false, default: false
 });
 ```
+###CALL
+```javascript
+$(".anyone").smartCycle('realign');
+```
+
 
 [view page](http://domtest.esy.es/smartCycle/)
