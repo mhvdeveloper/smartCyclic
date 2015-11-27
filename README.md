@@ -9,7 +9,7 @@
 ```
 and smartCycle
 ```javascript
-<script type="text/javascript" src="https://github.com/mhvdeveloper/smartCyle/blob/master/smartCycle.min.js"></script>
+<script type="text/javascript" src="smartCycle.min.js"></script>
 ```
 
 in body
