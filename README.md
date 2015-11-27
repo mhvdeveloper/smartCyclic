@@ -1,5 +1,5 @@
 # smartCycle.js
-### easy diagram cycle
+### Easy diagram cycle
 
 ![smartCycle with only color](http://domtest.esy.es/smartCycle/sc.jpg)
 
@@ -32,8 +32,8 @@ in body
 ###OPTIONS:
 ```javascript
 $(".anyone").smartCycle({
-    container_width: '420px', //container width (.ciclo2), default: 420px
-    container_height: '420px',//container height (.ciclo2), default: 420px
+    container_width: '420px', //container width (.anyone), default: 420px
+    container_height: '420px',//container height (.anyone), default: 420px
     radio: 160, //radio of the center of objects from the center, default: 160px
     angle_ini: 0, //starting angle in radians, default: 0
     direction: 'right', //arrow's direction, right or left, default: right
