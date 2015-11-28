@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>smartCycle jquery plugin</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="smartCycle.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div class="title">
+    <h1>smartCycle.js</h1>
+    <h2>for a easy diagram cycle<h2>
+</div>
+
+<div class="contenedor">
+    <div class="ciclo1">
+        <a class="sc_object">A</a>
+        <a class="sc_object">B</a>
+        <a class="sc_object">C</a>
+        <a class="sc_object">D</a>
+        <a class="sc_object">E</a>
+        <a class="sc_object">F</a>
+        <a class="sc_center">center</a>
+    </div>
+</div>
+
+<div class="footer">
+    <p>
+        <div class="btn add">Add</div>
+        <a href="https://github.com/mhvdeveloper/smartCyle/archive/master.zip" download>Download smartCycle.js </a>
+        <a>or</a><a href='http://jsfiddle.net/dn0ayeLp/' target="_blank"> Examples on jsfiddle</a>
+        <a>or</a><a href='https://github.com/mhvdeveloper/smartCyle' target="_blank"> View on GitHub</a>
+        </br>
+        <span class="by">By MHVDeveloper</span>
+    </p>
+</div>
+
+
+</body>
+</html>
+
+<script>
+
+ var radio = 160;
+ var radio_arrows =140;
+ var container_width = 420, container_height=420;
+ var c_container_width = 420, c_container_height=420;
+
+
+$(".ciclo1").smartCycle({
+    container_width: '420px',
+    container_height: '420px',
+    radio: radio,
+    radio_arrows: radio_arrows,
+    arrows_colors:['#40A4C0'],
+    colors:['#40A4C0','#40A4C0']
+});
+
+var alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','Ñ','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+var alphabet_pos =6;
+
+
+$(".add").click(function(){
+    
+    $(".ciclo1").append('<a class="sc_object">'+alphabet[alphabet_pos]+'</a>');  
+
+    radio+=25;
+    radio_arrows+=25;
+    container_width+=50;
+    container_height+=50;
+
+    c_container_width+=50;
+    c_container_height+=50;
+
+    $(".contenedor").css({
+        'width':c_container_width+'px',
+        'height':c_container_height+'px'
+    });
+
+    $(".ciclo1").smartCycle('options',{'radio': radio, 'radio_arrows': radio_arrows, 'container_width': container_width+'px',
+    'container_height': container_height+'px',});
+
+    
+
+    $(".ciclo1").smartCycle('realign');
+
+    alphabet_pos+=1;
+
+});
+
+</script>
