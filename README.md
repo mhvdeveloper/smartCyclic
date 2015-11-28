@@ -45,7 +45,7 @@ $(".anyone").smartCycle({
     radio_arrows: 140,//radio of the arrows from the center, default: 140px
     arrows_colors:['#40A4C0'],//arrow's colors one or more (array)
     colors:['#40A4C0','#40A4C0'],//object's colors one or more (first is center) (array)
-    union:'false'//circle union, true or false, default: false
+    union:['false','#F79646','10px']//circle union: visible, color and width, default: false #F79646 10px. same radio_arrows
 });
 ```
 ###CALL
