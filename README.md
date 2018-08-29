@@ -3,6 +3,9 @@
 
 ![smartCycle with only color](http://domtest.esy.es/smartCycle/sc.jpg)
 
+
+[view page](http://domtest.esy.es/smartCycle/)
+
 ### HOW TO USE:
 ```javascript
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
