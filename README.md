@@ -4,7 +4,7 @@
 ![smartCycle with only color](https://mhvdeveloper.github.io/smartCyclic/sc.jpg)
 
 
-[view page](http://domtest.esy.es/smartCycle/)
+[View Demo](https://mhvdeveloper.github.io/smartCyclic/)
 
 ### HOW TO USE:
 ```javascript
@@ -57,4 +57,4 @@ $(".anyone").smartCycle('realign');
 ```
 
 
-[view Demo](https://mhvdeveloper.github.io/smartCyclic/)
+[View Demo](https://mhvdeveloper.github.io/smartCyclic/)
