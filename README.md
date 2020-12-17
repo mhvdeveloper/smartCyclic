@@ -1,7 +1,7 @@
 # smartCycle.js
 ### Easy diagram cycle
 
-![smartCycle with only color](http://domtest.esy.es/smartCycle/sc.jpg)
+![smartCycle with only color](https://mhvdeveloper.github.io/smartCyclic/sc.jpg)
 
 
 [view page](http://domtest.esy.es/smartCycle/)
@@ -57,4 +57,4 @@ $(".anyone").smartCycle('realign');
 ```
 
 
-[view page](http://domtest.esy.es/smartCycle/)
+[view Demo](https://mhvdeveloper.github.io/smartCyclic/)
